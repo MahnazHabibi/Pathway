@@ -1,4 +1,4 @@
-function [Features_Matrix]=Topological_feature()
+function []=Topological_feature()
 [Weighted_Matrix,Adj,P]=Pathway_Network();
 [p]=p_value(P,1265);
 [degree]=Degree(Adj);
