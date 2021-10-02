@@ -11,7 +11,9 @@ File "Signaling_Pathways.xlsx" contains KEGG signaling pathways with more than 8
 File "Disease_Pathways.xlsx" contains KEGG disease pathways with more than 8 genes related to COVID-19.
 
 To calculate 6 informative features for pathways from biological network related to COVID-19 pathways, run an algorithm "Topological_feature.m".
+
 To run the algorithm follow the "Read_me.txt" steps.
+
 See the output at "Output.txt" file.
 
 To select the top significant pathways related to COVID-19,  use the Laplacian Score values  with respect to "Laplacian_Score_Feature_Selection.m" algorithm (see "Read_me.txt" file).
