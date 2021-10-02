@@ -31,8 +31,8 @@ n=length(pathway);
 OutputFile=input('Please enter the name of output file: ');
 C=fopen(char(OutputFile),'a');
 for i=1:n
-    l=Feature_Normal(i,1)*Laplas(1)+Feature_Normal(i,2)*Laplas(2)+Feature_Normal(i,3)*Laplas(3)+Feature_Normal(i,4)*Laplas(4)+(1/Feature_Normal(i,5))*Laplas(5)+Feature_Normal(i,6)*Laplas(6);
-    fprintf(C,'%s, %5.3f \n',char(pathway{i}),l);
+l=sum(Laplas.*Feature_Normal(i,:))-2*Laplas(5)*Feature_Normal(i,5);   
+fprintf(C,'%s, %5.3f \n',char(pathway{i}),l);
 end
 fclose(C);
 end
