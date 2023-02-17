@@ -17,3 +17,15 @@ To run the algorithm follow the "Read_me.txt" steps.
 See the output at "Output.txt" file.
 
 To select the top significant pathways related to COVID-19,  use the Laplacian Score values  with respect to "Laplacian_Score_Feature_Selection.m" algorithm (see "Read_me.txt" file).
+
+Link of paper:
+
+https://www.sciencedirect.com/science/article/pii/S1568494622005968
+
+Contact:
+
+Please do not hesitate to contact me if you have any question.
+
+Email: Mahnaz.Habibi@iau.ac.ir
+
+Please cite us if you find this study helpful.
